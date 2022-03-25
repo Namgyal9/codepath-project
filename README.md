@@ -41,9 +41,13 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![gamewon](https://user-images.githubusercontent.com/74562633/160172920-f45f2d13-11cc-4add-96cf-aae6fdd15a31.gif)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+![newt](https://user-images.githubusercontent.com/74562633/160175272-b2e90206-81df-4587-9bbb-9b48c4b93f5f.gif)
+
+
+![timer](https://user-images.githubusercontent.com/74562633/160175246-65c85cb5-d7d5-4dc5-baa8-e01d3202d3a4.gif)
+
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
