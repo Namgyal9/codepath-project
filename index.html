@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Light Sound Memory Game</h1>
+    <div class="parent">
+      <div class="child">
+        <p>
+          Hello User. The rules of the game is to repeat
+          <br />the pattern as shown by the 4 colored buttons<br/> below. There
+          is a (green circle)start/(red X)stop<br/> button to play and pause the game; however you
+          <br/>must complete the game before the time runs out. 
+      
+        </p>
+      </div>
+      <div id="child2" class="child">
+        <p id="timer">Timer</p>
+      </div>
+    </div>
+
+    <button id="start_btn" onclick="start_game()"></button>
+
+    <button id="stop_btn" class="hidden" onclick="stop_game()"></button>
+
+    <audio id="gunshot1">
+      <source
+        src="https://cdn.glitch.global/5725046c-0ab9-4535-8217-55aa81c44a6b/gun-cocking-01.mp3?v=1647995556052"
+        type="audio/mp3"
+      />
+    </audio>
+
+    <audio id="gunshot2">
+      <source
+        src="https://cdn.glitch.global/5725046c-0ab9-4535-8217-55aa81c44a6b/gun-gunshot-01.mp3?v=1647995561153"
+        type="audio/mp3"
+      />
+    </audio>
+
+    <audio id="kaching">
+      <source
+        src="https://cdn.glitch.global/5725046c-0ab9-4535-8217-55aa81c44a6b/ka-ching.mp3?v=1647997402745"
+        type="audio/mp3"
+      />
+    </audio>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+        onclick="guess(1)"
+      ></button>
+      <button
+        id="button2"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+        onclick="guess(2)"
+      ></button>
+      <button
+        id="button3"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+        onclick="guess(3)"
+      ></button>
+      <button
+        id="button4"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+        onclick="guess(4)"
+      ></button>
+    </div>
+  </body>
+</html>
