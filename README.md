@@ -40,6 +40,7 @@ The following **additional** features are implemented:
 
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
 **ALl general features**
 ![gamewon](https://user-images.githubusercontent.com/74562633/160172920-f45f2d13-11cc-4add-96cf-aae6fdd15a31.gif)
 
