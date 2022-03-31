@@ -70,7 +70,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://ccny.zoom.us/rec/share/ucH8AI3YQLUOWMdpml0hE3G0uaShqcXDJWiQcFjZTFbyNPhbZZ8drnDvAK3rYujk.KH0I91Jx3nTjAcHx?startTime=1648693634000)
+[My 5-minute Interview Recording](https://ccny.zoom.us/rec/share/hgLb_YO7TqHEHIZnufjn2ITBGqxbRF0101FikQq6cYzcu-fe6CNsbNCqhixTycSD.Op1UbeE8cQvK6NeQ?startTime=1648693634000)
 
 
 ## License
